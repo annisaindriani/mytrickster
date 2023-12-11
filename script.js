@@ -17,14 +17,14 @@ let cities = [
         name: "mokupuni",
         imageSrc: "assets/townmokupuni.png",
         title: "Mokupuni",
-        desc: "Mokupuni is the main town on Omninesia, known for its desert aesthetics and research centers. Tamers can find Temporiums and explore the local culture."
+        desc: "Mokupuni is the Omninesia's main town, known for its desert aesthetics and research centers. Tamers can find Temporiums and explore the local culture."
     },
 
     {
         name: "quetzal",
         imageSrc: "assets/townquetzal.png",
         title: "Quetzal",
-        desc: "Quetzal is a large mining and manufacturing city, the only city on Tucma. Residents of Quetzal are known as Quetzaleño's, but are also called 'mine-worms' by the bandits that live on Tucma's surface."
+        desc: "Quetzal is a mining and manufacturing city on Tucma. Residents of Quetzal are known as Quetzaleño's, but are also called 'mine-worms'."
     }
 ]
 

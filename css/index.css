@@ -33,6 +33,10 @@ body{
     text-decoration: none;
 }
 
+.navbar a:hover{
+    color: #CC8605;
+}
+
 .navbar .active{
     color: #CC8605;
     text-decoration: underline;
@@ -80,6 +84,9 @@ body{
 #screenshots{
     background-color: #D9D9D9;
     padding: 55px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
     text-align: center;
 }
 
@@ -96,13 +103,18 @@ body{
     height: 220px;
     border: 5px solid #FFFFFF;
     margin: 15px;
-    margin-bottom: 50px;
+    margin-bottom: 40px;
 }
 
 #maps{
     background-color: #C14B57;
     padding: 55px;
+    /* padding-left: 55px; */
     color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 #maps h1{
@@ -128,7 +140,9 @@ body{
     width: 500px;
     height: 270px;
     border: 5px solid #FFFFFF;
-    margin: 15px;
+    /* margin: 15px; */
+    margin-bottom: 15px;
+    margin-top: 15px;
     margin-bottom: 30px;
 }
 
@@ -154,8 +168,10 @@ body{
     padding: 55px;
     color: #1F2641;
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
     justify-content: center;
+    text-align: center;
 }
 
 #towns h1{
@@ -167,18 +183,15 @@ body{
     -webkit-text-stroke: 2.5px #1F2641;
 }
 
-#towns h1{
-    width: 100%;
-}
-
-#towns h2,
-#towns p{
-    text-align: center;
-}
-
 #towns p{
     margin: 5px;
     font-size: 20px;
+}
+
+#container-towns{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .container-town{
@@ -195,6 +208,13 @@ body{
     height: 285px;
     border-radius: 20px;
     margin: 25px;
+}
+
+.button-town{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center; 
 }
 
 #screenshots button,
@@ -280,6 +300,10 @@ body{
 
 .footer-a{
     margin-bottom: 30px;
+}
+
+.footer a:hover{
+    text-decoration: underline;
 }
 
 .footer #mytrickster-logo{

@@ -33,6 +33,10 @@ body{
     text-decoration: none;
 }
 
+.navbar a:hover{
+    color: #CC8605;
+}
+
 .navbar .active{
     color: #CC8605;
     text-decoration: underline;
@@ -69,24 +73,38 @@ h1{
 
 .town{
     background-color: #FFFFFF;
-    margin-bottom: 60px;
-    width: 530px;
-    height: 600px;
+    margin: 0;
+    /* margin-bottom: 60px; */
+    /* width: 530px;
+    height: 600px; */
     border-radius: 30px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .towns{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    padding-left: 70px;
-    margin-bottom: 30px;
+    /* width: 530px;
+    height: 600px; */
+    gap: 50px;
+    margin-left: 70px;
+    margin-right: 70px;
+    margin-bottom: 70px;
+
+
+    /* margin: 70px; */
+    /* padding-left: 70px; */
+    /* margin-bottom: 30px; */
 }
 
 .image{
-    width: 480px;
+    /* width: 480px;
+    height: 285px; */
+    width: 90%;
     height: 285px;
     border-radius: 20px;
     margin: 25px;
@@ -133,14 +151,9 @@ h1{
 
 #content{
     color: #FFFFFF;
+    margin-left: 70px;
+    margin-right: 70px;
     margin-bottom: 60px;
-}
-
-#content h2,
-#content h3,
-#content p{
-    padding-left: 70px;
-    padding-right: 70px; 
 }
 
 #content h2{
@@ -153,8 +166,7 @@ h1{
 }
 
 #content ul{
-    padding-left: 120px;
-    padding-right: 70px;
+    margin-left: 50px;
 }
 
 #content p,
@@ -178,8 +190,6 @@ h1{
 .footer{
     background-color: #FFFFFF;
     height: 210px;
-    /* padding: 100px; */
-    /* margin-bottom: 50px; */
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -205,9 +215,102 @@ h1{
     margin-bottom: 30px;
 }
 
+.footer a:hover{
+    text-decoration: underline;
+}
+
 .footer #mytrickster-logo{
     background-color: none;
     width: 100px;
     height: 60px;
     margin-top: 30px;
+}
+
+@media only screen and (min-width: 1360px){
+    /* .towns{
+        padding-left: 100px;
+    } */
+    .towns{
+        margin-left: 125px;
+        margin-right: 125px;
+
+    }
+
+    #content{
+        margin-left: 120px;
+        margin-right: 120px;
+    }
+    
+}
+
+@media only screen and (min-width: 1440px){
+    /* .towns{
+        padding-left: 120px;
+    } */
+
+    .towns{
+        margin-left: 150px;
+        margin-right: 150px;
+
+    }
+
+    .image{
+        /* width: 480px; */
+        /* height: 285px; */
+        width: 90%;
+        height: 50%;
+    }
+
+    #content{
+        margin-left: 150px;
+        margin-right: 150px;
+    }
+    
+}
+
+@media only screen and (min-width: 1680px){
+    /* .towns{
+        padding-left: 140px;
+    } */
+
+    .towns{
+        margin-left: 275px;
+        margin-right: 275px;
+
+    }
+
+    .image{
+        height: 50%;
+    }
+
+    #content{
+        margin-left: 275px;
+        margin-right: 275px;
+    }
+    
+}
+
+@media only screen and (min-width: 1920px){
+    /* .towns{
+        padding-left: 140px;
+    } */
+
+    .towns{
+        margin-left: 375px;
+        margin-right: 375px;
+
+    }
+
+    .image{
+        /* width: 100%; */
+        width: 90%;
+        height: 50%;
+        /* height: 80%; */
+    }
+
+    #content{
+        margin-left: 375px;
+        margin-right: 375px;
+    }
+
 }
