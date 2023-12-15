@@ -68,35 +68,41 @@ h1{
     -webkit-text-stroke: 2.5px #FFA800;
 }
 
-#content{
-    color: #FFFFFF;
-    margin-left: 70px;
-    margin-right: 70px;
-    margin-bottom: 60px;
+#container{
+    background-color: #060526;
+    margin: 60px auto;
+    margin-bottom: 90px;
+    padding-bottom: 40px;
+    width: 80%;
+    height: auto;
+    border-radius: 30px;
+    color: #000000;
+    font-size: 15px;
+    font-weight: 600;
 }
 
-#content h2{
-    font-size: 25px;
-    margin-bottom: 20px;
-}
-
-#content h3{
-    font-size: 20px;
-    font-weight: bold;
-    margin-bottom: 20px;
-}
-
-#content ul,
-#content ol{
+#container h2{
     margin-left: 50px;
-    font-size: 20px;
+    padding-top: 40px;
+    color: #FFFFFF;
+    font-size: 25px;
 }
 
-#content p,
-#content ul,
-#content ol{
+#container p{
+    margin-top: 30px;
+    margin-left: 50px;
+    margin-right: 50px;
+    color: #FFFFFF;
     font-size: 20px;
-    margin-bottom: 40px;
+    font-weight: 400;
+}
+
+#container ul{
+    margin-left: 80px;
+    margin-right: 50px;
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: 400;
 }
 
 /* footer */
@@ -137,36 +143,4 @@ h1{
     width: 100px;
     height: 60px;
     margin-top: 30px;
-}
-
-@media only screen and (min-width: 1360px){
-    #content{
-        margin-left: 120px;
-        margin-right: 120px;
-    }
-    
-}
-
-@media only screen and (min-width: 1440px){
-    #content{
-        margin-left: 150px;
-        margin-right: 150px;
-    }
-    
-}
-
-@media only screen and (min-width: 1680px){
-    #content{
-        margin-left: 275px;
-        margin-right: 275px;
-    }
-    
-}
-
-@media only screen and (min-width: 1920px){
-    #content{
-        margin-left: 375px;
-        margin-right: 375px;
-    }
-
 }

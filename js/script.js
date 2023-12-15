@@ -26,9 +26,9 @@ let cities = [
         title: "Quetzal",
         desc: "Quetzal is a mining and manufacturing city on Tucma. Residents of Quetzal are known as Quetzaleño's, but are also called 'mine-worms'."
     }
-]
+];
 
-let townContainer = document.getElementById("towns")
+let townContainer = document.getElementById("towns");
 
 
 cities.forEach(city => {
@@ -37,10 +37,10 @@ cities.forEach(city => {
             <img class="image" src="${city.imageSrc}">
             <p class="title">${city.title}</p>
             <p class="desc">${city.desc}</p>
-            <a href="${city.name}.html">
-            <button>Details</button>
-        </a>
+            <a href="/town/${city.name}.html">
+            <button>Details</button></a>
         </div>`
 
-    townContainer.innerHTML += html
+    townContainer.innerHTML += html;
 });
+

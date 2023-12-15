@@ -5,7 +5,6 @@
     padding: 0;
     box-sizing: border-box;
     font-family: "Open Sans", sans-serif;
-
 }
 
 body{
@@ -44,7 +43,6 @@ body{
 
 .nav-user a{
     margin-left: 20px;
-    margin-right: 30px;
     color: #1F2641;
     font-size: 15px;
     font-weight: bold;
@@ -56,8 +54,6 @@ body{
     width: 100px;
     height: 60px;
     margin-top: 5px;
-    margin-left: 30px;
-    margin-right: 50px;
 }
 
 /* content  */
@@ -101,29 +97,187 @@ input{
     border: 1.5px solid #000000;
     margin-left: 45px;
     margin-bottom: 15px;
+    padding: 10px;
+}
 
+input:not(:focus)::placeholder{
+    font-weight: 600;
+    font-size: 12px;
+}
+
+input:focus::placeholder{
+    font-weight: normal;
+    font-size: 12px;
+}
+
+.title{
+    margin-bottom: 10px;
+
+}
+
+#title-gender{
+    margin-left: 65px;
+}
+
+.content-form{
+    display: flex;
+    margin: 0px;
+}
+
+#age_input{
+    width: 50px;
+    height: 30px;
+}
+
+#female{
+    margin-left: 90px;
+    width: 15px;
+}
+
+
+#male,
+#other-radio{
+    margin-left: 20px;
+    width: 15px;
+}
+
+#other-text{
+    width: 110px;
+    margin-left: 20px;
+    margin-right: 50px;
+    border: 1.5px solid #000000;
+}
+
+.sub-gender{
+    margin-left: -35px;
+    margin-top: 4px;
+}
+
+#terms{
+    width: 20px;
+    height: auto;
+    margin: 0px;
+}
+
+label[for="terms"] {
+    font-size: 13px; /* Adjust the font size as needed */
+}
+
+#signup a{
+    color: #236B9E;
+    text-decoration: none;
+}
+
+#signup a:hover{
+    text-decoration: underline;
 }
 
 #submit{
     background-color: #00C2FF;
     color: #FFFFFF;
+    text-align: center;
     border: none;
     border-radius: 20px;
     font-weight: 600;
     margin-top: 15px;
+    margin-bottom: 40px;
+    padding: 0;
+    cursor: pointer;
+}
+
+#error-email,
+#error-password,
+#error-password-confirmation,
+#error-age,
+#error-terms,
+#error-gender{
+    font-size: 13px;
+    font-weight: 600;
+    margin-top: -10px;
+    margin-bottom: 15px;
+    margin-left: 45px;
+    margin-right: 40px;
+    color: #FF0000;
+}
+
+#error-terms{
+    margin-left: 68px;
+    font-size: 12.5px;
+}
+
+#error-age{
+    /* margin-right: 10px; */
+}
+
+#error-gender{
+    /* margin-left: -140px; */
+}
+
+#errors{
+    display: flex;
+}
+
+/* success */
+
+#container-2{
+    background-color: #FFFFFF;
+    margin: 60px auto;
+    margin-bottom: 50px;
+    padding-bottom: 50px;
+    width: 550px;
+    height: auto;
+    border-radius: 30px;
+    color: #1F2641;
+    font-size: 15px;
+    font-weight: 600;
+    text-align: center;
+}
+
+#container-2 img{
+    display: block;
+    padding-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#container-2 h1{
+    margin-top: 30px;
+    text-align: center;
+}
+
+#container-2 p{
+    margin-top: 30px;
     margin-bottom: 30px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+#container-2 button{
+    width: 150px;
+    height: 35px;
+    background-color: #00FF85;
+    border: 1px solid #00FF85;
+    border-radius: 20px;
+    font-size: 15px;
+    font-weight: 700;
+    text-align: center;
+    color: #FFFFFF;
+    transition-duration: 0.4s;
+    cursor: pointer;
 }
 
 /* footer */
 
 .footer{
     background-color: #FFFFFF;
-    height: 210px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     text-align: center;
+    /* position: sticky; */
+    bottom: 0;
+    width: 100%;
 }
 
 .footer p{
