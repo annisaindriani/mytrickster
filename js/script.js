@@ -37,7 +37,7 @@ cities.forEach(city => {
             <img class="image" src="${city.imageSrc}">
             <p class="title">${city.title}</p>
             <p class="desc">${city.desc}</p>
-            <a href="/town/${city.name}.html">
+            <a href="town/${city.name}.html">
             <button>Details</button></a>
         </div>`
 
