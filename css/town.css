@@ -299,7 +299,6 @@ h1{
     .towns{
         margin-left: 375px;
         margin-right: 375px;
-
     }
 
     .image{
@@ -314,4 +313,136 @@ h1{
         margin-right: 375px;
     }
 
+}
+
+@media only screen and (max-width: 1024px){
+    .towns{
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+
+    .image{
+        width: 90%;
+        height: 40%;
+    }
+
+    .title,
+    .desc{
+        font-size: 17px;
+    }
+
+    #content img{
+        width: 600px;
+        height: 320px;
+    }
+}
+
+@media only screen and (max-width: 767px){
+    .navbar a{
+        font-size: 13px;
+    }
+
+    #mytrickster-logo{
+        width: 80px;
+        height: 40px;
+    }
+
+    .towns{
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .towns button{
+        width: 80px;
+        height: 30px;
+        font-size: 15px;
+    }
+
+    .image{
+        width: 95%;
+        height: 50%;
+        margin: 15px;
+    }
+
+    .title,
+    .desc{
+        font-size: 18px;
+    }
+
+    #content{
+        margin-left: 50px;
+        margin-right: 50px;
+        margin-bottom: 60px;
+    }
+
+    #content img{
+        width: 380px;
+        height: 280px;
+    }
+
+    .footer p{
+        font-size: 12px;
+    }
+
+    .footer a{
+        font-size: 12px;
+        margin: 10px;
+    }
+
+    .footer #mytrickster-logo{
+        width: 80px;
+        height: 50px;
+        margin-top: 20px;
+    }
+
+    
+}
+
+@media only screen and (max-width: 480px){
+    .navbar a{
+        font-size: 13px;
+    }
+
+    #mytrickster-logo{
+        width: 80px;
+        height: 40px;
+    }
+
+    .image{
+        width: 90%;
+        height: 40%;
+        margin: 15px;
+    }
+
+    .title{
+        font-size: 15px;
+    }
+
+    .desc{
+        margin-top: 0px;
+        font-size: 15px;
+    }
+
+    .towns{
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    #content img{
+        width: 320px;
+        height: 250px;
+    }
+
+    .footer p{
+        font-size: 10px;
+    }
+
+    .footer a{
+        font-size: 10px;
+        margin: 10px;
+    }
+    
+    .footer #mytrickster-logo{
+        width: 80px;
+        height: 50px;
+        margin-top: 20px;
+    }
 }

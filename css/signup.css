@@ -308,3 +308,142 @@ label[for="terms"] {
     height: 60px;
     margin-top: 30px;
 }
+
+@media only screen and (max-width: 767px){
+    .navbar a{
+        font-size: 13px;
+    }
+
+    #mytrickster-logo{
+        width: 80px;
+        height: 40px;
+    }
+
+    #container{
+        width: 450px;
+    }
+
+    input{
+        width: 354px;
+    }    
+    
+    #title-gender{
+        margin-left: 15px;
+    }
+    
+    #female{
+        margin-left: 40px;
+        width: 15px;
+    }
+    
+    #male,
+    #other-radio{
+        margin-left: 10px;
+        width: 15px;
+    }
+    
+    #other-text{
+        width: 80px;
+        margin-left: 10px;
+        margin-right: 50px;
+        border: 1.5px solid #000000;
+    }
+    
+    label[for="terms"] {
+        margin-right: 50px;
+    }
+
+    #container-2{
+        width: 420px;
+    }
+
+    .footer p{
+        font-size: 12px;
+    }
+
+    .footer a{
+        font-size: 12px;
+        margin: 10px;
+    }
+
+    .footer #mytrickster-logo{
+        width: 80px;
+        height: 50px;
+        margin-top: 20px;
+    }
+
+    
+}
+
+@media only screen and (max-width: 480px){
+    .navbar a{
+        font-size: 13px;
+    }
+
+    #mytrickster-logo{
+        width: 80px;
+        height: 40px;
+    }
+
+    #container{
+        width: 390px;
+    }
+
+    input{
+        width: 294px;
+    }    
+    
+    #title-gender{
+        margin-left: 0;
+    }
+    
+    #female{
+        margin-left: 25px;
+        width: 15px;
+    }
+    
+    #male,
+    #other-radio{
+        margin-left: 8px;
+        width: 15px;
+    }
+    
+    #other-text{
+        width: 40px;
+        margin-left: 10px;
+        margin-right: 50px;
+        border: 1.5px solid #000000;
+    }
+    
+    label[for="terms"] {
+        margin-right: 50px;
+    }
+
+    #container-2{
+        width: 360px;
+    }
+
+    #container-2 h1{
+        font-size: 25px;
+    }
+    
+    #container-2 p{
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+
+    .footer p{
+        font-size: 10px;
+    }
+
+    .footer a{
+        font-size: 10px;
+        margin: 10px;
+    }
+    
+    .footer #mytrickster-logo{
+        width: 80px;
+        height: 50px;
+        margin-top: 20px;
+    }
+}
