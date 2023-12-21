@@ -78,7 +78,7 @@ function successPage(counter, email){
 document.getElementById("signup").addEventListener("submit", function (e) {
     e.preventDefault();
     
-    confirm("confirm");
+    confirm("Are you sure you want to continue?");
 
     let email = document.getElementById("email_input").value;
     let password = document.getElementById("password_input").value;
